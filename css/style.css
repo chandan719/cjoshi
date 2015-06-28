@@ -1,0 +1,99 @@
+
+*{
+ padding:0px;
+ margin:0px;
+}
+
+
+
+.navbar-inverse li > a{
+ list-style:none;
+ text-decoration:none;
+ color:#fff;
+ padding:0px;
+ margin:6px;
+ font-size:1.3em;
+ font-family: 'Shadows Into Light', cursive;
+ transition: all 0.6s ease 0s;
+}
+
+.navbar-inverse li  > a:hover{
+ color:#17DDF3;
+
+
+}
+.navbar-inverse ul li a.active{
+ color:#24D842;
+
+}
+.row{
+ background-image:url("images/mysitebg.png");
+ padding-left:15px;
+}
+.container p{
+
+ font-family: 'Droid Sans', sans-serif;
+ font-size:15px;
+ line-height:1.563em;
+ padding-left:0px;
+ }
+.container h1 {
+ text-transform:uppercase;
+ font-weight:bolder;
+ margin-top:0px;
+ margin-bottom:0px;
+ }
+ .container h2{
+ text-transform:uppercase;
+ font-weight:bolder;
+ margin-top:0px;
+ margin-bottom:0px;
+ }
+ .container h3 {
+ text-transform:uppercase;
+ font-weight:bolder;
+ margin-top:0px;
+ margin-bottom:0px;
+ }
+
+.footer{
+  
+  height:4.5em;
+  background-color:#fff;
+  color:#000;
+  line-height:55px;
+  padding-left:10px;
+  
+  
+}
+.footer_social { float:left; margin-bottom:0px;padding-top:0px;}
+.footer_social li { display: inline;}
+.footer_social li a:hover{ opacity:0.9 important;}
+
+.contactusform{
+}
+.address{
+}
+background
+{
+ width:100%;
+ height:100%;
+ background:red;
+ animation:mymove 5s infinite;
+/*Safari and Chrome:*/
+-webkit-animation:mymove 5s infinite;
+}
+
+@keyframes mymove
+{
+from {background-color:red;}
+to {background-color:blue;}
+}
+
+/*Safari and Chrome:*/
+@-webkit-keyframes mymove
+{
+from {background-color:red;}
+to {background-color:blue;}
+}
+
